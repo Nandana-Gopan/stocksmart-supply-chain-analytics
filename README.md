@@ -70,8 +70,8 @@ Because the stockout flag is unusable, stockout risk is estimated instead of rea
 ## Repository structure
 - data: source link and column dictionary
 - sql: setup script and numbered analysis scripts, including the view inventory_enriched
-- powerbi: StockSmart_Dashboard.pbix
-- screenshots: dashboard images
+- powerbi: StockSmart_Dashboard.pbix and StockSmart_Theme.json (colour theme)
+- images: dashboard screenshots
 
 ## How to reproduce
 1. Download the CSV from Kaggle and run sql/00_setup_and_load.sql in MySQL.

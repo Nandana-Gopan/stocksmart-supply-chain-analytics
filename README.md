@@ -2,7 +2,7 @@
 
 A MySQL + Power BI project that shows when and where inventory is at risk of running short, which suppliers to review first, and how reliable the demand forecast is.
 
-![Overview](screenshots/overview.png)
+![Overview](images/overview.png)
 
 ## Business problem
 An online retailer holds 50 products across 5 warehouses and 10 suppliers. Stock sometimes runs low, deliveries can take long, and managers do not know what to look at first. This project builds a reporting view that shows where inventory risk sits and what to investigate first.
@@ -62,10 +62,10 @@ Because the stockout flag is unusable, stockout risk is estimated instead of rea
 **1. Overview:** revenue, gross profit, High Risk rate and below-reorder count; monthly units sold vs forecast; risk status split; lead-time risk by month; key insights.
 
 **2. Inventory:** slicers for month, region, warehouse and supplier; top 10 SKUs by units sold and by lead-time risk rate; a Priority Watchlist of SKU-warehouse pairs with the most High Risk days.
-![Inventory](screenshots/inventory.png)
+![Inventory](images/inventory.png)
 
 **3. Suppliers and Demand:** average lead time by supplier; lead time vs High Risk rate scatter; a decomposition tree to drill from supplier to warehouse to SKU; a treemap of units sold by supplier coloured by risk.
-![Suppliers and Demand](screenshots/suppliers_demand.png)
+![Suppliers and Demand](images/suppliers_demand.png)
 
 ## Repository structure
 - data: source link and column dictionary

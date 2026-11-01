@@ -3,6 +3,7 @@
 A MySQL + Power BI project that shows when and where inventory is at risk of running short, which suppliers to review first, and how reliable the demand forecast is.
 
 ![Overview](images/overview.png)
+[Open the full dashboard as a PDF](powerbi/StockSmart_Dashboard.pdf)
 
 ## Business problem
 An online retailer holds 50 products across 5 warehouses and 10 suppliers. Stock sometimes runs low, deliveries can take long, and managers do not know what to look at first. This project builds a reporting view that shows where inventory risk sits and what to investigate first.
@@ -70,7 +71,7 @@ Because the stockout flag is unusable, stockout risk is estimated instead of rea
 ## Repository structure
 - data: source link and column dictionary
 - sql: setup script and numbered analysis scripts, including the view inventory_enriched
-- powerbi: StockSmart_Dashboard.pbix and StockSmart_Theme.json (colour theme)
+- powerbi: StockSmart_Dashboard.pbix, StockSmart_Dashboard.pdf (full dashboard export) and StockSmart_Theme.json (colour theme)
 - images: dashboard screenshots
 
 ## How to reproduce

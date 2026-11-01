@@ -81,3 +81,5 @@ Because the stockout flag is unusable, stockout risk is estimated instead of rea
 
 ## Skills shown
 SQL (aggregation, CASE, subqueries, window functions, views), data validation, DAX measures, dashboard design, business recommendations.
+## Author
+Nandana Gopan | [LinkedIn](https://www.linkedin.com/in/nandana-gopan-a6b136359/) | nandanagopan2504@gmail.com

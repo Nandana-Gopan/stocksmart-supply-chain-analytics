@@ -1,0 +1,10 @@
+{
+  "name": "StockSmart Warehouse Green",
+  "dataColors": ["#1E8E64", "#9AA9A0", "#F5B700", "#E4572E", "#0D3B2E", "#8FD3B2", "#5B6B63", "#C9D6CE"],
+  "background": "#FFFFFF",
+  "foreground": "#16261F",
+  "tableAccent": "#1E8E64",
+  "good": "#1E8E64",
+  "neutral": "#F5B700",
+  "bad": "#E4572E"
+}
